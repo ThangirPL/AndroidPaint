@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item1"
+        android:title="▲     Triangle">
+        <ImageButton
+            android:contentDescription="@string/shape"
+            android:src="@drawable/tri" />
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:title="■     Square">
+        <ImageButton
+            android:contentDescription="@string/shape"
+            android:src="@drawable/sqr" />
+    </item>
+    <item
+        android:id="@+id/item3"
+        android:title="●     Circle">
+        <ImageButton
+            android:contentDescription="@string/shape"
+            android:src="@drawable/cir" />
+    </item>
+    <item
+        android:id="@+id/item4"
+        android:title="★     Star">
+        <ImageButton
+            android:contentDescription="@string/shape"
+            android:src="@drawable/star" />
+    </item>
+    <item
+        android:id="@+id/item5"
+        android:title="♥   Heart">
+        <ImageButton
+            android:contentDescription="@string/shape"
+            android:src="@drawable/heart" />
+    </item>
+    <item
+        android:id="@+id/item6"
+        android:title="𝕋     Text">
+        <ImageButton
+            android:contentDescription="@string/shape"
+            android:src="@drawable/text" />
+    </item>
+</menu>
